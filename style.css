@@ -3,12 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+.main {
+  position: relative;
+}
 .header {
   text-align: center;
   background: #e1b12c;
   color: white;
   padding: 15px 0 15px 0;
+  width: 100vw;
+  position: absolute;
 }
+
 #canvas {
   display: block;
 }
